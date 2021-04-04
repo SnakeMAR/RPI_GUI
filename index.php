@@ -8,7 +8,7 @@ if (isset($_POST['procedure']) && isset($_POST['ip'])) {
 	//	Найстройки/Settings
 	$folder = ".";  			// Папка играми, '.' категория где и index.php 	// Folder with Games, '.' folder where index.php, last simbol must be '/'
 	$folder_log = './extra/';  	// Папка с логами				   				// Folder with logs,  '.' folder where index.php, last simbol must be '/'
-	$lang = "rus";				// Переключение языка, rus			// Select language, for english set "eng" //Pour le français, paramétrer en "fre"
+	$lang = "fre";				// Переключение языка, rus			// Select language, for english set "eng" //Pour le français, paramétrer en "fre"
 	$temp_folder = "./extra/temp"
 	?>		
 <!DOCTYPE HTML>
